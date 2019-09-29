@@ -8,7 +8,8 @@
 </head>
 <body>
     <?php foreach($cotxes as $marca) {
-        echo "$marca ,";
+        if($marca != $cotxes[sizeof($cotxes) -1]) echo "$marca, ";
+        else echo "$marca.";
     }
     ?>
 </body>
