@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php foreach($cotxes as $marca) {
-        if($marca != $cotxes[sizeof($cotxes) -1]) echo "$marca, ";
-        else echo "$marca.";
-    }
+    <?php 
+        echo "Marca: $cotxes->marca";
+        echo "<br>";
+        echo "Preu: $cotxes->preu\n";
+        echo "<br>";
+        echo "Cavalls: $cotxes->cavalls\n";
     ?>
 </body>
 </html>
