@@ -2,7 +2,7 @@
 
 // Model, Array associatiu
 
-require 'models/arrays.php';
+require 'models/cotxes_array.php';
 
 // Vista, Plantilla front-end
 
